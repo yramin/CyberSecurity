@@ -1,0 +1,8 @@
+# Streamlit-specific requirements
+# This includes all base requirements plus Streamlit
+
+streamlit>=1.28.0
+
+# Include all existing requirements
+-r requirements.txt
+

@@ -1,0 +1,74 @@
+{
+  "id": "incident_response_playbook",
+  "name": "General Incident Response Playbook",
+  "description": "Standard playbook for security incident response",
+  "incident_types": ["security_incident", "breach", "attack"],
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Identify and Classify Incident",
+      "description": "Determine the type and severity of the incident",
+      "actions": [
+        "Review alert details and logs",
+        "Classify incident type (malware, intrusion, data breach, etc.)",
+        "Assign severity level (critical, high, medium, low)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "title": "Contain the Threat",
+      "description": "Immediately contain the threat to prevent further damage",
+      "actions": [
+        "Isolate affected systems from network",
+        "Disable compromised accounts",
+        "Block malicious IP addresses",
+        "Revoke compromised credentials"
+      ]
+    },
+    {
+      "step_number": 3,
+      "title": "Preserve Evidence",
+      "description": "Collect and preserve evidence for investigation",
+      "actions": [
+        "Take snapshots of affected systems",
+        "Collect relevant logs",
+        "Document timeline of events",
+        "Preserve memory dumps if applicable"
+      ]
+    },
+    {
+      "step_number": 4,
+      "title": "Eradicate the Threat",
+      "description": "Remove the threat from the environment",
+      "actions": [
+        "Remove malware or malicious code",
+        "Patch vulnerabilities",
+        "Clean compromised systems",
+        "Restore from clean backups if needed"
+      ]
+    },
+    {
+      "step_number": 5,
+      "title": "Recover Systems",
+      "description": "Restore normal operations",
+      "actions": [
+        "Verify systems are clean",
+        "Restore services gradually",
+        "Monitor for re-infection",
+        "Update security controls"
+      ]
+    },
+    {
+      "step_number": 6,
+      "title": "Post-Incident Review",
+      "description": "Learn from the incident and improve",
+      "actions": [
+        "Conduct post-incident review",
+        "Document lessons learned",
+        "Update security policies",
+        "Improve detection and response capabilities"
+      ]
+    }
+  ]
+}
+

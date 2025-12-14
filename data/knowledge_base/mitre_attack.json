@@ -1,0 +1,40 @@
+{
+  "techniques": [
+    {
+      "id": "T1059",
+      "name": "Command and Scripting Interpreter",
+      "description": "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.",
+      "tactics": ["Execution"],
+      "platforms": ["Linux", "macOS", "Windows"]
+    },
+    {
+      "id": "T1071",
+      "name": "Application Layer Protocol",
+      "description": "Adversaries may communicate using application layer protocols to avoid detection/network filtering.",
+      "tactics": ["Command and Control"],
+      "platforms": ["Linux", "macOS", "Windows"]
+    },
+    {
+      "id": "T1566",
+      "name": "Phishing",
+      "description": "Adversaries may send phishing messages to gain access to victim systems.",
+      "tactics": ["Initial Access"],
+      "platforms": ["Linux", "macOS", "Windows"]
+    },
+    {
+      "id": "T1190",
+      "name": "Exploit Public-Facing Application",
+      "description": "Adversaries may exploit software vulnerabilities in public-facing applications.",
+      "tactics": ["Initial Access"],
+      "platforms": ["Linux", "macOS", "Windows"]
+    },
+    {
+      "id": "T1133",
+      "name": "External Remote Services",
+      "description": "Adversaries may leverage external-facing remote services to gain access to internal networks.",
+      "tactics": ["Initial Access"],
+      "platforms": ["Linux", "macOS", "Windows"]
+    }
+  ]
+}
+

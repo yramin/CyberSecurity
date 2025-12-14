@@ -1,0 +1,67 @@
+# Core Dependencies
+langgraph>=0.2.0
+langchain>=0.1.0
+langchain-anthropic>=0.1.0
+anthropic>=0.18.0
+
+# Vector Database
+chromadb>=0.4.22
+sentence-transformers>=2.3.0
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+websockets>=12.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.25
+alembic>=1.13.0
+
+# Security Tools
+bandit>=1.7.5
+safety>=2.3.5
+# Note: Trivy is a binary tool, not a Python package. Install separately:
+# macOS: brew install trivy
+# Linux: See https://aquasecurity.github.io/trivy/latest/getting-started/installation/
+# Docker: Already included in Dockerfile
+
+# Log Processing
+python-json-logger>=2.0.7
+watchdog>=3.0.0
+
+# HTTP Clients
+httpx>=0.26.0
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# Data Processing
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# ML/Anomaly Detection
+numpy>=1.26.3
+scikit-learn>=1.4.0
+pandas>=2.1.4
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.1.2
+
+# Rate Limiting
+slowapi>=0.1.9
+
+# Testing
+pytest>=7.4.4
+pytest-asyncio>=0.23.3
+pytest-cov>=4.1.0
+httpx>=0.26.0  # For async testing
+pytest-mock>=3.12.0
+
+# Utilities
+python-dateutil>=2.8.2
+typing-extensions>=4.9.0
+
